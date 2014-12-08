@@ -51,3 +51,12 @@ forecast = [
 ]
 
 #----- your code below -----
+
+forecast.each do |temps|
+  p "#{temps["day"]}: High of #{temps["temperatures"]["high"]}, Low of #{temps["temperatures"]["low"]}"
+end
+
+#p temps["day"]
+#p temps["temperatures"]["high"]
+#p temps["temperatures"]["high"]
+#p "#{temps["day"]}"
